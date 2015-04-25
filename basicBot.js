@@ -174,14 +174,12 @@
         return m;
     };
 
-    var botCreator = "Matthew (Yemasthui)";
-    var botMaintainer = "Benzi (Quoona)"
-    var botCreatorIDs = ["3851534", "3934992", "4105209"];
+    var botCreator = "Vena (VenaCzPlay)";
 
     var basicBot = {
-        version: "2.2.1",
+        version: "3.2.1",
         status: false,
-        name: "basicBot",
+        name: "MineMove bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -239,7 +237,7 @@
             youtubeLink: null,
             website: null,
             intervalMessages: [],
-            messageInterval: 5,
+            messageInterval: 0,
             songstats: true,
             commandLiteral: "!",
             blacklists: {
