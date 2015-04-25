@@ -1,1 +1,1 @@
-javascript:(function(){$.getScript('https://rawgit.com/KaosBass/basicBot/master/basicBot.js');})();
+javascript:(function(){$.getScript('https://rawgit.com/VenaCzPlay/Plug-Bot-Minemove/master/basicBot.js');})();
