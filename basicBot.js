@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/VenaCzPlay/Plug-Bot-Minemove/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/VenaCzPlay/Plug-Bot-Minemove/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -181,9 +181,9 @@
         status: false,
         name: "MineMove bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/VenaCzPlay/Plug-Bot-Minemove/master/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/VenaCzPlay/Plug-Bot-Minemove/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/VenaCzPlay/Plug-Bot-Minemove/master/lang/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/VenaCzPlay/Plug-Bot-Minemove/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -191,7 +191,7 @@
         settings: {
             botName: "McCoder's Bot",
             language: "english",
-            chatLink: "https://rawgit.com/VenaCzPlay/Plug-Bot-Minemove/master/lang/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/VenaCzPlay/Plug-Bot-Minemove/lang/en.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false

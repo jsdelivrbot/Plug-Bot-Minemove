@@ -1,5 +1,5 @@
 {
-    "english": "https://rawgit.com/VenaCzPlay/Plug-Bot-Minemove/master/lang/en.json",
+    "english": "https://cdn.jsdelivr.net/gh/VenaCzPlay/Plug-Bot-Minemove/lang/en.json",
     "portuguese": "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
-    "french": "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json"
+    "french": "https://cdn.jsdelivr.net/gh/Yemasthui/basicBot/lang/fr.json"
 }
